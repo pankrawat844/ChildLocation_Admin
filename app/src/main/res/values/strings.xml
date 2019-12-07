@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Child Location Admin</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAdX3NCPNdxq-HMPWNGf7e-txnt2IXs8KE</string>
+
+</resources>
