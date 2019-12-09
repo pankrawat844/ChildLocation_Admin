@@ -7,5 +7,36 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
+    <style name="FormTextInputLayou" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+        <item name="android:textColorHint">@color/colorAccent</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/font_15</item>
+        <!--<item name="colorAccent">@color/border_color</item>-->
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <!--<item name="colorAccent">@color/dialog_error_color</item>-->
+        <!--<item name="colorControlNormal">@color/border_color</item>-->
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <!--<item name="colorControlNormal">@color/border_color</item>-->
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <!--<item name="colorControlHighlight">@color/border_color</item>-->
 
+    </style>
+    <style name="FormTextInputLayoutTheme" parent="TextAppearance.AppCompat">
+        <!-- Hint color and label color in FALSE state -->
+
+        <!--<item name="android:textSize">@dimen/font_14</item>-->
+        <!-- Label color in TRUE state and bar color FALSE and TRUE State -->
+        <!--<item name="colorAccent">@color/dialog_error_color</item>-->
+        <!--<item name="colorControlNormal">@color/border_color</item>-->
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <item name="android:textSize">@dimen/font_16</item>
+        <item name="colorAccent">@color/border_color</item>
+        <item name="colorControlNormal">@color/border_color</item>
+        <!--<item name="colorControlActivated">@color/border_color</item>-->
+        <!--<item name="colorControlHighlight">@color/border_color</item>-->
+
+    </style>
+
+    <color name="border_color">#e3e3e3</color>
 </resources>
